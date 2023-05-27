@@ -4,6 +4,7 @@ import Home from './scenes/Home'
 import Benefits from './scenes/Benefits'
 import Ourclasses from './scenes/classes'
 import Contact from './scenes/Contact'
+import Footer from './scenes/Footer'
 import { SelectedPage } from './Types/Types'
 
 const App = () => {
@@ -32,6 +33,7 @@ const App = () => {
       <Benefits setSelectedPage={setSelectedPage}/>
       <Ourclasses setSelectedPage={setSelectedPage}/>
       <Contact setSelectedPage={setSelectedPage}/>
+      <Footer/>
     </div>
   )
 }
