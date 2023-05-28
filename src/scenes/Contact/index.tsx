@@ -19,7 +19,7 @@ const Contact = ({ setSelectedPage }: Props) => {
 
 
     }
-    const inputStyles = `mt-5 w-full rounded-lg bg-primary-300 px-5 py-3 placeholder:text-white outline-none text-white`
+    const inputStyles = `mt-5 w-full rounded-lg bg-primary-300 px-5 py-3 placeholder:text-neutral-600 outline-none text-white`
     return (
         <section id='contactus' className='mx-auto w-5/6 pt-24 pb-32'>
             <motion.div onViewportEnter={() => setSelectedPage(SelectedPage.OurClasses)}>
@@ -69,7 +69,7 @@ const Contact = ({ setSelectedPage }: Props) => {
                                 })}
                             />
                             {errors.name && (
-                                <p className='mt-1 text-primary-500'>
+                                <p className='mt-1 text-red-500'>
                                     {errors.name.type === "required" && "This field is required"}
                                     {errors.name.type === "maxLength" && "Maximum length of name is 70 characters"}
                                 </p>
@@ -84,7 +84,7 @@ const Contact = ({ setSelectedPage }: Props) => {
                                 })}
                             />
                             {errors.email && (
-                                <p className='mt-1 text-primary-500'>
+                                <p className='mt-1 text-red-500'>
                                     {errors.email.type === "required" && "This field is required"}
                                     {errors.email.type === "pattern" && "Invalid email address"}
                                 </p>
@@ -99,7 +99,7 @@ const Contact = ({ setSelectedPage }: Props) => {
                                 })}
                             />
                             {errors.email && (
-                                <p className='mt-1 text-primary-500'>
+                                <p className='mt-1 text-red-500'>
                                     {errors.email.type === "required" && "This field is required"}
                                     {errors.email.type === "maxLenght" && "Maximum length of this field is 2000 characters"}
                                 </p>

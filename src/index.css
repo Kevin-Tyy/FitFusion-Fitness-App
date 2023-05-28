@@ -11,5 +11,23 @@ body,
     height: 100%;
     width: 100%;
     font-family: "DM Sans" , sans-serif;
-    @apply text-gray-500
+    @apply text-gray-500;
+    @apply bg-gray-50
+    
 }
+::-webkit-scrollbar {
+    width: 10px;
+    height: 5px;
+    padding: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #07375f;
+    color: #0C141C;
+    color: #0D1D2E;
+    color: #132130;
+    border-radius: 10px;
+    width: 1px;
+    position: absolute;
+
+  }
+

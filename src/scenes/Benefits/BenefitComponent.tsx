@@ -15,7 +15,7 @@ const BenefitComponent = ({ icon, title, description, setSelectedPage }: Props) 
     return (
         <motion.div 
             variants={childVariant}
-            className="rounded-md mt-5 border-2 border-gray-100 px-12 py-16 text-center"
+            className="rounded-md mt-5 border-2 border-primary-300 px-12 py-16 text-center" 
             >
                 <div className="mb-4 flex justify-center">
                     <div className="rounded-full bg-primary-100 p-4">

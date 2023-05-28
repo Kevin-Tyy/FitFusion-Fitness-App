@@ -8,15 +8,15 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "gray-20": "#F8F4EB",
-        "gray-50": "#EFE6E6",
-        "gray-100": "#DFCCCC",
-        "gray-500": "#5E0000",
-        "primary-100": "#FFE1E0",
-        "primary-300": "#FFA6A3",
-        "primary-500": "#FF6B66",
-        "secondary-400": "#FFCD5B",
-        "secondary-500": "#FFC132",
+        "gray-20": "#0D1D2E",
+        "gray-50": "#0D1D2E",
+        "gray-100": "#0C88EF",
+        "gray-500": "#D8D8D8",
+        "primary-100": "#0C141C",
+        "primary-300": "#132130",
+        "primary-500": "#0D1D2E",
+        "secondary-400": "#244792",
+        "secondary-500": "#244792",
 
       },
       backgroundImage : (theme) => ({
